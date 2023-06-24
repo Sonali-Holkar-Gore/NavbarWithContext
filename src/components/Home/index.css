@@ -1,0 +1,38 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.light-theme {
+  background-color: #fff;
+}
+
+.dark-theme {
+  background-color: #000;
+}
+.image {
+  height: 150px;
+  width: 150px;
+}
+.heading {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.light {
+  color: #171f46;
+}
+.dark {
+  color: #fff;
+}
+@media screen and (max-width: 576px) {
+  .image {
+    width: 100px;
+    height: 100px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+}

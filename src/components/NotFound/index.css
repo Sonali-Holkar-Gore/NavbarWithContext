@@ -1,0 +1,46 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.light-theme {
+  background-color: #fff;
+}
+
+.dark-theme {
+  background-color: #000;
+}
+.image {
+  height: 150px;
+  width: 150px;
+}
+.heading {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.description {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.light {
+  color: #333333;
+}
+.dark {
+  color: #fff;
+}
+@media screen and (max-width: 576px) {
+  .image {
+    width: 100px;
+    height: 100px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .description {
+    font-size: 16px;
+  }
+}
